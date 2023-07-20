@@ -9,5 +9,6 @@ let ProductSchema = new Schema({
     image: mongoose.Schema.Types.String,
     rating: Object,
 })
+//schema for mongoDB is defined here, providing types for each key value pair
 let productsModel = mongoose.model('products', ProductSchema)
 module.exports = productsModel
